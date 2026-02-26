@@ -5,12 +5,23 @@
 
 // --- Pin Mapping for ESP32-C3 ---
 // Adjust these pins based on your wiring
+
+//ESPRESSIF ESP32-C3-DevKitM-1 (clone)
 #define EPD_CS     21
 #define EPD_DC     4
 #define EPD_RST    5
-#define EPD_BUSY   6
-#define EPD_SCK    8
+#define EPD_BUSY   3
+#define EPD_SCK    6
 #define EPD_MOSI   10
+
+//M5Stack C3
+//#define EPD_CS     21
+//#define EPD_DC     4
+//#define EPD_RST    5
+//#define EPD_BUSY   6
+//#define EPD_SCK    8
+//#define EPD_MOSI   10
+
 #define MESSAGE "Hello GxEPD2_583_GDEQ0583T31"
 
 // --- Display Selection
